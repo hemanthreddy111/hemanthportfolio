@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" font-family="monospace">
+<rect width="1200" height="800" fill="#0d1117"/>
+<rect x="60" y="60" width="1080" height="56" rx="10" fill="#161b22"/>
+<circle cx="92" cy="88" r="7" fill="#ff5f56"/><circle cx="118" cy="88" r="7" fill="#ffbd2e"/><circle cx="144" cy="88" r="7" fill="#27c93f"/>
+<text x="600" y="95" fill="#8b949e" font-size="22" text-anchor="middle">sox-x-AI · alert triage</text>
+<g font-size="22">
+<rect x="60" y="150" width="700" height="590" rx="10" fill="#161b22"/>
+<text x="90" y="195" fill="#8b949e">INCOMING EVENTS</text>
+<rect x="90" y="220" width="640" height="64" rx="8" fill="#1f2630"/><rect x="90" y="220" width="6" height="64" fill="#ff2d20"/><text x="116" y="260" fill="#e6edf3">Suspicious login pattern</text><text x="710" y="260" fill="#ff2d20" text-anchor="end">HIGH</text>
+<rect x="90" y="300" width="640" height="64" rx="8" fill="#1f2630"/><rect x="90" y="300" width="6" height="64" fill="#f5a524"/><text x="116" y="340" fill="#e6edf3">Unusual outbound traffic</text><text x="710" y="340" fill="#f5a524" text-anchor="end">MED</text>
+<rect x="90" y="380" width="640" height="64" rx="8" fill="#1f2630"/><rect x="90" y="380" width="6" height="64" fill="#f5a524"/><text x="116" y="420" fill="#e6edf3">Port scan detected</text><text x="710" y="420" fill="#f5a524" text-anchor="end">MED</text>
+<rect x="90" y="460" width="640" height="64" rx="8" fill="#1f2630"/><rect x="90" y="460" width="6" height="64" fill="#3fb950"/><text x="116" y="500" fill="#e6edf3">Routine system update</text><text x="710" y="500" fill="#3fb950" text-anchor="end">LOW</text>
+<rect x="90" y="540" width="640" height="64" rx="8" fill="#1f2630"/><rect x="90" y="540" width="6" height="64" fill="#3fb950"/><text x="116" y="580" fill="#e6edf3">Scheduled backup</text><text x="710" y="580" fill="#3fb950" text-anchor="end">LOW</text>
+</g>
+<rect x="790" y="150" width="350" height="590" rx="10" fill="#161b22"/>
+<text x="820" y="195" fill="#8b949e" font-size="22">AI ASSIST</text>
+<circle cx="965" cy="360" r="95" fill="none" stroke="#ff2d20" stroke-width="4" stroke-dasharray="14 10"/>
+<circle cx="965" cy="360" r="55" fill="#ff2d20" opacity=".15"/>
+<text x="965" y="372" fill="#ff2d20" font-size="34" text-anchor="middle" font-weight="bold">AI</text>
+<text x="965" y="520" fill="#e6edf3" font-size="22" text-anchor="middle">prioritise · explain</text>
+<text x="965" y="556" fill="#8b949e" font-size="20" text-anchor="middle">suggest next step</text>
+</svg>

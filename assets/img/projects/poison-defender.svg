@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" font-family="monospace">
+<rect width="1200" height="800" fill="#0d1117"/>
+<rect x="60" y="60" width="1080" height="56" rx="10" fill="#161b22"/>
+<circle cx="92" cy="88" r="7" fill="#ff5f56"/><circle cx="118" cy="88" r="7" fill="#ffbd2e"/><circle cx="144" cy="88" r="7" fill="#27c93f"/>
+<text x="600" y="95" fill="#8b949e" font-size="22" text-anchor="middle">multi-model poison defender</text>
+<text x="150" y="190" fill="#8b949e" font-size="22">TRAINING DATA</text>
+<g>
+<circle cx="170" cy="260" r="16" fill="#58a6ff"/><circle cx="230" cy="300" r="16" fill="#58a6ff"/><circle cx="170" cy="350" r="16" fill="#58a6ff"/><circle cx="240" cy="400" r="16" fill="#ff2d20"/><circle cx="170" cy="450" r="16" fill="#58a6ff"/><circle cx="235" cy="500" r="16" fill="#58a6ff"/><circle cx="170" cy="550" r="16" fill="#ff2d20"/><circle cx="235" cy="600" r="16" fill="#58a6ff"/>
+</g>
+<g stroke="#30363d" stroke-width="2"><path d="M260 330 L430 250M260 400 L430 400M260 500 L430 550"/><path d="M630 250 L760 400M630 400 L760 400M630 550 L760 400"/></g>
+<g fill="#161b22" stroke="#58a6ff" stroke-width="3"><rect x="430" y="210" width="200" height="80" rx="12"/><rect x="430" y="360" width="200" height="80" rx="12"/><rect x="430" y="510" width="200" height="80" rx="12"/></g>
+<g fill="#e6edf3" font-size="26" text-anchor="middle"><text x="530" y="260">Model A</text><text x="530" y="410">Model B</text><text x="530" y="560">Model C</text></g>
+<rect x="760" y="320" width="260" height="160" rx="16" fill="#161b22" stroke="#ff2d20" stroke-width="4"/>
+<text x="890" y="385" fill="#ff2d20" font-size="28" text-anchor="middle" font-weight="bold">CONSENSUS</text><text x="890" y="430" fill="#e6edf3" font-size="22" text-anchor="middle">flag &amp; isolate</text>
+<text x="890" y="455" fill="#e6edf3" font-size="22" text-anchor="middle">poisoned samples</text>
+<circle cx="1090" cy="400" r="14" fill="#ff2d20" opacity=".9"/><text x="1090" y="450" fill="#8b949e" font-size="18" text-anchor="middle">removed</text>
+</svg>

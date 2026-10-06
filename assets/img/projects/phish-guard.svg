@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" font-family="monospace">
+<rect width="1200" height="800" fill="#0d1117"/>
+<rect x="60" y="60" width="1080" height="56" rx="10" fill="#161b22"/>
+<circle cx="92" cy="88" r="7" fill="#ff5f56"/><circle cx="118" cy="88" r="7" fill="#ffbd2e"/><circle cx="144" cy="88" r="7" fill="#27c93f"/>
+<text x="600" y="95" fill="#8b949e" font-size="22" text-anchor="middle">phish_guard · link scanner</text>
+<rect x="140" y="190" width="920" height="80" rx="40" fill="#161b22" stroke="#30363d" stroke-width="2"/>
+<text x="190" y="242" fill="#8b949e" font-size="28">https://secure-login.example-bank.xyz/verify</text>
+<rect x="880" y="204" width="166" height="52" rx="26" fill="#ff2d20"/><text x="963" y="238" fill="#fff" font-size="24" text-anchor="middle">SCAN</text>
+<rect x="140" y="320" width="920" height="400" rx="14" fill="#161b22"/>
+<path d="M300 400 l90 -36 l90 36 v80 q0 70 -90 110 q-90 -40 -90 -110z" fill="none" stroke="#ff2d20" stroke-width="6"/>
+<path d="M350 470 l30 30 l56 -64" fill="none" stroke="#ff2d20" stroke-width="0"/>
+<path d="M360 450 l60 60 M420 450 l-60 60" stroke="#ff2d20" stroke-width="8" stroke-linecap="round"/>
+<g font-size="26"><text x="560" y="420" fill="#ff2d20" font-weight="bold" font-size="34">PHISHING LIKELY</text>
+<text x="560" y="480" fill="#e6edf3">✗ lookalike domain</text><text x="560" y="530" fill="#e6edf3">✗ credential-request form</text><text x="560" y="580" fill="#e6edf3">✗ suspicious URL structure</text><text x="560" y="640" fill="#3fb950">✓ blocked before click-through</text></g>
+</svg>
